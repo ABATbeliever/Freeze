@@ -1,0 +1,7 @@
+title " "
+exec "kill.bat"
+sendmsg hwnd, $112, $F020
+goto *main
+*main
+mouse ginfo(20) / 2, ginfo(21) / 2
+goto *main
